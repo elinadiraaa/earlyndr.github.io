@@ -1,92 +1,111 @@
-.navbar {
-    background-color: azure;
-    padding: 16px;
-}
-
-.navbar-container{
-    max-width: 1200px;
-    margin: 0 auto;
+nav {
+    width: 80%;
+    margin: auto;
+    background: rgb(0, 0, 0) ;
+    background: linear-gradient(90deg, rgb(33, 10, 88) 0%, rgb(44, 43, 148) 32%, rgb(86, 86, 175) 83%);
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
     align-items: center;
 }
 
-.logo img{
-    width: 150px;
-    height: auto;
-}
-ul{
-    list-style-type: none;
+ul {
+    list-style: none;
     display: flex;
     gap: 20px;
     font-size: 20px;
 }
-a{
+
+a {
     text-decoration: none;
-    color: rgba(21, 73, 133, 0.911);
+    color: white;    
 }
-a:visited{
-    color: rgb(6, 77, 143);
+
+a:visited{ 
+  color: black;
 }
 
 #container{
-    width:80%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between ;
+  align-items: center;
 }
 
-#text{
 
-}
 
-h3 {
-  font-size: 30px;
-  margin:0;
+h3{
+    font-size: 30px;
+    margin: 0;
 }
 
 h1{
- font-size: 50px;
- margin:0;
+    font-size: 54px;
+    margin:0 ;
 }
 
-#hobby-container{
+#firee{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+#lock{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between ;
+    align-items: center;  
+}
+
+
+h3{
+    font-size: 28px;
+    margin: 0;
+}
+
+h3{
+    font-size: 28px;
+    margin:0 ; 
+}
+
+
+#hobby {
+    width: 80%;
+    margin: auto;
+}
+
+#hobby-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:10px;
+    gap: 10px;
 }
 
-@media screen  and (max-width: 1334px){
-    #container{ 
-        width:80%;
+.boxx {
+    width: 25%;
+    border: 1PX solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+h5 {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 600px) {
+    #hobby-container {
         display: flex;
-        flex-direction: column-reverse;
-        margin: auto;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        gap: 10px;
     }
 
-#container img{
-    width: 500px;
-}
-
-#container h3{
-    font-size: 28px;
-}
-
-#container h1{
-    font-size: 36px;
-}
-
-#hobby-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    gap:10px;
-}
-
+    
 }
